@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+	int a= 1;
+	int n, c=0, d=0;
+	cout<<"Ingrese la cantidad N:"<<endl;
+	cin>>n;
+	while(a<=n){
+		if(a%2==0){
+			c=c+a;
+		cout<<a<<" El numero es par:"<<endl;
+		}else{
+			d=d+a;
+		cout<<a<<" El numero es impar:"<<endl;
+		}
+		a++;
+	}
+	cout<<" La suma de los numeros impares es:"<<c<<endl;
+	cout<<" La suma de los impares es:"<<d<<endl;
+	
+	system("pause");
+	}
